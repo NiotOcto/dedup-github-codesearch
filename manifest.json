@@ -1,0 +1,20 @@
+{
+  "name": "GitHub Code Search Deduplication",
+  "description": "Remove duplicate snippets in GitHub Code Search",
+  "author": "https://github.com/NiotOcto/dedup-github-codesearch",
+  "version": "0.1",
+  "manifest_version": 3,
+  "host_permissions": [
+    "https://github.com/*"
+  ],
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "icons": {
+    "128": "icons/icon128.png"
+  }
+}
